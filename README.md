@@ -8,4 +8,11 @@ Either download the binary release from GitHub or run:
 `$ go get -u "github.com/guitmz/go-weather-indicator"`
 
 # Usage
-`$ ./go-weather-indicator -city Berlin -country Germany -key API_KEY`
+`$ go-weather-indicator --city Berlin --country Germany --key API_KEY`
+
+# TODO
+- More weather information
+- Better error handling
+- Try to cleanup and add comments in the code
+- Write tests
+- Allow more customization like displaying temeprature in Farenheit
