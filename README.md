@@ -21,3 +21,5 @@ You are required to install `gdk-pixbuf` and `gtk2` in order to run this properl
 - Try to cleanup and add comments in the code
 - Write tests
 - Allow more customization like displaying temeprature in Farenheit
+
+![](screenshot.png)
