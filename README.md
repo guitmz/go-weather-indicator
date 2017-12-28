@@ -7,7 +7,10 @@ This application relies on https://github.com/mattn/go-gtk for the GTK bindings 
 
 # Installation
 Either download the binary release from GitHub or run:
+
 `$ go get -u "github.com/guitmz/go-weather-indicator"`
+
+You are required to install `gdk-pixbuf` and `gtk2` in order to run this properly.
 
 # Usage
 `$ go-weather-indicator --city Berlin --country Germany --key API_KEY`
