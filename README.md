@@ -3,6 +3,8 @@ Minimalistic GTK weather indicator written in GoLang. Uses [Weatherbit](https://
 
 You can get yout free API key here: https://www.weatherbit.io/account/create
 
+This application relies on https://github.com/mattn/go-gtk for the GTK bindings and I quickly wrote one for Weatherbit provider (https://github.com/guitmz/go-weatherbit) and this last one has a lot of room for improvements.
+
 # Installation
 Either download the binary release from GitHub or run:
 `$ go get -u "github.com/guitmz/go-weather-indicator"`
