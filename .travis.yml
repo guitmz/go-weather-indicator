@@ -13,7 +13,7 @@ notifications:
 
 before_script:
   - sudo apt-get update -qq
-  - sudo apt-get install -y gdk-pixbuf libgtk2.0-dev libpango1.0-dev
+  - sudo apt-get install -y libgdk-pixbuf2.0-dev libgtk2.0-dev libpango1.0-dev
   - go get github.com/guitmz/go-weatherbit
   - go get github.com/mattn/go-gtk
 
