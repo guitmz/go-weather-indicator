@@ -2,6 +2,14 @@ language: go
 
 go:
   - tip
+  
+install: true
+
+matrix:
+  fast_finish: true
+
+notifications:
+  email: false
 
 before_script:
   - sudo apt-get update -qq
