@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/guitmz/go-weather-indicator.svg?branch=master)](https://travis-ci.org/guitmz/go-weather-indicator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/guitmz/go-weather-indicator)](https://goreportcard.com/report/github.com/guitmz/go-weather-indicator)
 
 # go-weather-indicator
 Minimalistic GTK weather indicator written in GoLang. Uses [Weatherbit](https://www.weatherbit.io) as provider. 
